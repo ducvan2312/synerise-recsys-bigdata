@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Raw and staging data
+data/raw/
+data/staging/
+
+# Flume runtime data
+flume/checkpoint/
+flume/data/
+flume.log
+
+# Spark and Hadoop runtime
+metastore_db/
+derby.log
+logs/
+
+# Generated models and results
+models/
+results/
+
+# Old backup code
+backup/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
